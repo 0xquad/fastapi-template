@@ -1,0 +1,8 @@
+services:
+  api:
+    build:
+      context: .
+    image: myapp-api
+    # for development
+    volumes:
+      - ./app:/app
